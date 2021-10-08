@@ -42,6 +42,11 @@ Normally, proxy forks into the background. To make it stay in the foreground (fo
 ```
 proxy -l 8080 -h 192.168.1.2 -p 80 -f
 ```
+编译：
+纯C语言的代理，直接make
+
+执行：
+./proxy -b 0.0.0.0 -l 9999 -h 175.24.190.180 -p 22 -f 
 
 ## Parsers
 
